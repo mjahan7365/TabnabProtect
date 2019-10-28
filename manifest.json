@@ -1,0 +1,13 @@
+{
+  "name": "Tabnab Project",
+  "version": ".10",
+  "description": "Browser extension which will alert users when a tabnabbing attack has taken place by detecting that the tab that the user is looking at is different than it was before it 'lost' focus.",
+  "backgroung": {
+     "persistent": false,
+     "scripts": ["index.js"]
+     },
+     "permisions": [
+       "activeTab"
+       ],
+  "manifest_version": 2
+}
